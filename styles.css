@@ -1,0 +1,50 @@
+body {
+  font-family: 'Capriola', sans-serif;
+  font-weight: bold;
+
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  position: relative;
+  /* this is for working of animation*/
+  margin-top: 15px;
+  color: blue;
+}
+
+.form-select {
+  width: auto;
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 6rem;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+
+@media (max-width:600px) {
+  .title {
+    font-size: 3.4rem;
+  }
+}
+
+#validationInput {
+  width: auto;
+}
+
+.submit-button {
+  width: auto;
+}
